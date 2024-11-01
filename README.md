@@ -1,6 +1,6 @@
 # Slide Puzzle Game
 
-![Slide Puzzle Game Screenshot](images/screenshot.png)
+![Slide Puzzle Game Screenshot]![Screenshot 2024-11-02 000038](https://github.com/user-attachments/assets/eb9b2749-9676-4150-b571-6bf26c657738)
 
 ## Table of Contents
 
