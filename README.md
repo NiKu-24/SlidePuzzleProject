@@ -8,9 +8,7 @@
 - [Features](#features)
 - [Demo](#demo)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
@@ -40,20 +38,21 @@ Experience the game live on GitHub Pages:
 - **CSS3**: Styling the game interface and ensuring responsiveness.
 - **JavaScript (ES6)**: Handling game logic, interactivity, and dynamic content.
 
-## Installation
+## Usage
+Start the Game:
+Click the "Yes" button on the initial popup to begin.
 
-To run the **Slide Puzzle Game** locally on your machine, follow these steps:
+Play the Puzzle:
+Click on tiles adjacent to the empty space to move them.
 
-### Prerequisites
+Preview Image:
+Click the "Preview Image" button to see the complete image.
 
-- A modern web browser (e.g., Chrome, Firefox, Safari).
-- [Git](https://git-scm.com/) installed on your computer.
+Complete the Puzzle:
+Upon solving, a motivational quote will be displayed.
 
-### Steps
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-1. **Clone the Repository:**
-
-   Open your terminal or command prompt and run:
-
-   ```bash
-   git clone https://github.com/NiKu-24/SlidePuzzleProject.git
+## Acknowledgments
+Inspired by various web-based puzzle games.
