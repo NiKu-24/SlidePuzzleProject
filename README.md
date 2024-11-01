@@ -32,7 +32,7 @@ Whether you're looking to pass the time, sharpen your problem-solving skills, or
 
 Experience the game live on GitHub Pages:
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://NiKu-24.github.io/SlidePuzzleProject/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](http://127.0.0.1:5500/index.html)
 
 ## Technologies Used
 
