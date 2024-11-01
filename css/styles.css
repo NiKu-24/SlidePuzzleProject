@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #847577; /* Pastel tone */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Common button styles */
+.button-common {
+    background-color: #FE5F55; /* Your desired background color */
+    color: #FFFFFF; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-common:hover {
+    background-color: #E0483E; /* Hover color */
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* Increase font size for text inside popups */
+.modal-content p, 
+.modal-content h1, 
+.modal-content h2, 
+.modal-content h3, 
+.modal-content span {
+    font-size: 18px; /* Adjust as needed */
+    line-height: 1.5;
+    color: #333; /* Ensure good contrast */
+}
+
+.modal-content h1 {
+    font-size: 24px; /* Larger font size for headings */
+}
+
+/* Puzzle Container */
+#puzzle-container {
+    width: 450px;
+    height: 450px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2px;
+}
+
+.tile {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #fff;
+}
+
+.tile-number {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(214, 244, 217, 0.7);
+}
+
+.modal-content {
+    background-color: #E5E6E4; /* Updated background color */
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #7098e8;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+    text-align: center;
+}
+
+#close-preview-modal {
+    color: #aaa;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#preview-image {
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #puzzle-container {
+        width: 100%;
+        max-width: 450px;
+        height: 100%;
+        max-height: 450px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 2px;
+    }
+}
+
+/* Optional: Add invalid move animation */
+.invalid-move {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}

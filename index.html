@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>   </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Initial Popup -->
+    <div id="initial-popup" class="modal" style="display: block;">
+        <div class="modal-content">
+            <p>Up for a journey to inspiration?</p>
+            <button id="start-button" class="button-common">Yes</button>
+        </div>
+    </div>
+
+    <!-- Game Container -->
+    <div id="game-container" style="display: none;">
+        <h1> </h1>
+        <div id="puzzle-container">
+            <!-- The puzzle grid will be generated here -->
+        </div>
+        <button id="preview-button" class="button-common">Preview Image</button>
+    </div>
+
+    <!-- Completion Popup -->
+    <div id="completion-popup" class="modal">
+        <div class="modal-content">
+            <p id="quote-text"></p>
+            <button id="close-completion-popup" class="button-common">Close</button>
+        </div>
+    </div>
+
+    <!-- Preview Modal -->
+    <div id="preview-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-preview-modal">&times;</span>
+            <img id="preview-image" src="" alt="Preview">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
